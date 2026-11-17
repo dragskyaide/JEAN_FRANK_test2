@@ -1,0 +1,299 @@
+[
+  {
+    "id": "ex_1",
+    "title": "Premier saut en arrière",
+    "theme": "Prise arrière",
+    "difficulty": 1,
+    "difficultyLabel": "Facile",
+    "board": {
+      "whiteMen": [
+        28,
+        45
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        32
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        28,
+        37
+      ]
+    ],
+    "hint": "Aux dames 10×10, un pion prend aussi en reculant !",
+    "explanation": "Le pion blanc en 28 capture obligatoirement en arrière par 28x37."
+  },
+  {
+    "id": "ex_2",
+    "title": "Prise majoritaire obligatoire",
+    "theme": "Prise majoritaire",
+    "difficulty": 1,
+    "difficultyLabel": "Facile",
+    "board": {
+      "whiteMen": [
+        38
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        32,
+        33,
+        23
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        38,
+        18
+      ]
+    ],
+    "hint": "Comparez la prise de 1 pion (38x27) à celle de 2 pions.",
+    "explanation": "La règle de la prise majoritaire impose 38x29x18 (2 pions capturés)."
+  },
+  {
+    "id": "ex_3",
+    "title": "Couronnement direct",
+    "theme": "Promotion",
+    "difficulty": 1,
+    "difficultyLabel": "Facile",
+    "board": {
+      "whiteMen": [
+        14
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        9
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        14,
+        3
+      ]
+    ],
+    "hint": "Capturez pour atteindre la rangée 1-5.",
+    "explanation": "14x3 capture le pion noir et couronne votre pion en Dame dorée !"
+  },
+  {
+    "id": "ex_4",
+    "title": "Double saut à angle droit",
+    "theme": "Changement de diagonale",
+    "difficulty": 2,
+    "difficultyLabel": "Moyen",
+    "board": {
+      "whiteMen": [
+        38
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        33,
+        24
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        38,
+        20
+      ]
+    ],
+    "hint": "Tournez à 90° après le premier saut sur la case 29.",
+    "explanation": "Le pion blanc exécute 38x29x20 en changeant de diagonale à angle droit !"
+  },
+  {
+    "id": "ex_5",
+    "title": "Rafle de 3 pions en chaîne",
+    "theme": "Rafle multiple",
+    "difficulty": 2,
+    "difficultyLabel": "Moyen",
+    "board": {
+      "whiteMen": [
+        39
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        34,
+        24,
+        13
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        39,
+        8
+      ]
+    ],
+    "hint": "Cherchez le chemin qui capture les trois pions noirs jusqu'en case 8.",
+    "explanation": "39x30x19x8 balaie les trois pions d'un seul coup !"
+  },
+  {
+    "id": "ex_6",
+    "title": "Coup de 1 pour 3 jusqu'à Dame",
+    "theme": "Combinaison",
+    "difficulty": 3,
+    "difficultyLabel": "Difficile",
+    "board": {
+      "whiteMen": [
+        28,
+        29,
+        33,
+        39
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        18,
+        19,
+        9
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        28,
+        23
+      ],
+      [
+        19,
+        28
+      ],
+      [
+        33,
+        4
+      ]
+    ],
+    "hint": "Sacrifiez le pion 28 sur 23 : le pion 29 empêche le 18 de prendre, forçant 19x28 !",
+    "explanation": "1. 28-23! 19x28 (prise forcée) 2. 33x22x13x4!! Rafle de 3 pions et promotion immédiate en Dame !"
+  },
+  {
+    "id": "ex_7",
+    "title": "Passage interdit de promotion",
+    "theme": "Règle de promotion",
+    "difficulty": 3,
+    "difficultyLabel": "Difficile",
+    "board": {
+      "whiteMen": [
+        14
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        9,
+        8
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        14,
+        12
+      ]
+    ],
+    "hint": "La rafle ne s'arrête pas sur 3 : continuez la capture vers la case 12.",
+    "explanation": "14x3x12 oblige le pion blanc à quitter la case 3 et il reste simple pion."
+  },
+  {
+    "id": "ex_8",
+    "title": "Frappe longue de la Dame volante",
+    "theme": "Dame volante",
+    "difficulty": 4,
+    "difficultyLabel": "Expert",
+    "board": {
+      "whiteMen": [
+        7
+      ],
+      "whiteKings": [
+        46
+      ],
+      "blackMen": [
+        32,
+        18
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        46,
+        12
+      ]
+    ],
+    "hint": "Votre dame saute 32 puis s'arrête en 23 pour enchaîner sur le pion 18 jusqu'en 12 !",
+    "explanation": "46x23x12 capture les deux pions noirs en changeant de diagonale sur la case 23."
+  },
+  {
+    "id": "ex_9",
+    "title": "Rafle en losange de 4 pions",
+    "theme": "Grande rafle",
+    "difficulty": 4,
+    "difficultyLabel": "Expert",
+    "board": {
+      "whiteMen": [
+        47
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        42,
+        33,
+        23,
+        13
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        47,
+        9
+      ]
+    ],
+    "hint": "Montez en zigzag : 47 -> 38 -> 29 -> 18 -> 9.",
+    "explanation": "47x38x29x18x9 capture 4 pions adverses en une seule rafle spectaculaire !"
+  },
+  {
+    "id": "ex_10",
+    "title": "Sacrifice d'attraction pour percée",
+    "theme": "Finale & Promotion",
+    "difficulty": 5,
+    "difficultyLabel": "Maître",
+    "board": {
+      "whiteMen": [
+        13,
+        18,
+        22
+      ],
+      "whiteKings": [],
+      "blackMen": [
+        4,
+        15
+      ],
+      "blackKings": [],
+      "turn": "w"
+    },
+    "solutionPath": [
+      [
+        13,
+        9
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        18,
+        9
+      ]
+    ],
+    "hint": "Jouez 13-9 pour forcer 4x13 (bloqué par 22) et contre-attaquez par 18x9 !",
+    "explanation": "1. 13-9! 4x13 (prise obligatoire, bloquée par 22) 2. 18x9 suivie de la promotion imparable sur la rangée 1-5."
+  }
+]

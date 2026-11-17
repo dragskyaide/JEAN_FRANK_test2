@@ -1,0 +1,7 @@
+{
+  "name": "jean-frank-international-draughts-academy",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test tests/*.mjs", "serve": "python -m http.server 8000" }
+}
